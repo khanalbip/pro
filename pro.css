@@ -1,0 +1,600 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    color: #ffff;
+    font-family: "Plain Light";
+  }
+  html,
+  body {
+    font-family: "M PLUS 1p", sans-serif;
+    height: 100%;
+    width: 100%;
+    background-color: #151515;
+   }
+ 
+  #loader {
+    font-family: "Tilt Neon";
+    
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    background-color: #0b0b0b;
+    padding: 18vh 6vw;
+  }
+  
+  .line {
+   height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    gap: 5vw;
+  }
+  #line1-count {
+   
+    height: 7vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    gap: 1.2vw;
+  }
+  #line1-count h5,
+  #line1-count h6 {
+ 
+    font-size: 3vw;
+    font-weight: 100;
+    font-family: "Silk Serif";
+  }
+  #line1-count h5 {
+
+    width: 10vw;
+    text-align: end;
+  }
+  
+  .line h1 {
+    font-family: "M PLUS 1p", sans-serif;
+    /* font-weight: 400; */
+    font-weight: 5000;
+    font-size: 6vw;
+    text-transform: uppercase;
+  justify-content: space-between;
+    letter-spacing: 8px;
+    line-height: 7.4vw;
+  }
+  .line span {gap: 2vw;
+    font-family: "M PLUS 1p", sans-serif;
+    font-weight: 400;
+    font-size: 6.8vw;
+    text-transform: uppercase;
+    font-family: "Silk Serif";
+    -webkit-animation-duration: 1.7s;
+            animation-duration: 1.7s;
+           position: absolute;
+        
+     }
+     
+
+     /* navbar */
+
+     .navbar {
+        font-family: "M PLUS 1p", sans-serif;
+        background-color: #151515;
+        color: #fff;
+        padding: 15px 0;
+        /* position: fixed; */
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 999;  /* Ensure navbar stays on top */
+    }
+    
+    .container {
+        display: flex;
+        gap: 850px;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 1024px;
+        margin: 0 15px;  /* Center the container horizontally */
+    }
+    
+    .logo {
+        font-family: "M PLUS 1p", sans-serif;
+        font-size: 2rem;
+        font-weight: bold;
+        text-decoration: none;
+        color: inherit;
+    }
+    
+    .nav-menu {
+        font-family: "M PLUS 1p", sans-serif;
+        list-style: none;
+        display: flex;
+        margin-right:0px;
+        padding: 0;
+    }
+    
+    .nav-menu li {
+        font-family: "M PLUS 1p", sans-serif;
+        margin: 0 15px;
+    }
+    
+    .nav-menu a {
+
+        font-family: "M PLUS 1p", sans-serif;
+        text-decoration: none;
+        color: inherit;
+        transition: color 0.3s ease;
+    }
+    
+    .nav-menu a:hover {
+
+        font-family: "M PLUS 1p", sans-serif;
+        color: #808080;  /* Change hover color */
+    }
+
+
+    .ma{
+       column-gap: 0px;
+        justify-content: center;
+        text-align: center;
+        background-color: #151515;
+        height: 87.4vh;
+        width: 100%; position: absolute;
+        
+    }
+    
+.ma .h1{ position: absolute;
+    margin-left: 340px;
+    font-family: "M PLUS 1p", sans-serif;
+    margin-top: 55px;
+   font-size: 10vw; 
+   
+}
+.ma .h2{margin-top: 200px;
+    position: absolute;
+    margin-left: 390px;
+   font-size: 10vw; 
+ font-family: "M PLUS 1p", sans-serif;
+} 
+video{
+    width: 90%;
+    border-radius: 20px;
+}
+.vi{
+    justify-content: center;
+}
+
+.f{margin-left: 50px;
+    margin: 30px;
+    font-size: 3.9vw;
+    font-family: "M PLUS 1p", sans-serif;
+}
+h5{
+    font-family: "M PLUS 1p", sans-serif;
+    margin: 50px;
+    font-size: 1.5vw;
+}
+.ima{
+    margin-left: 400px;
+    justify-content: center;
+    text-align: center;
+    border-radius: 20px;
+}
+.fo{margin-left: 50px;
+    margin: 30px;
+    font-size: 3.9vw;
+    font-family: "M PLUS 1p", sans-serif;
+}
+h4{
+    font-family: "M PLUS 1p", sans-serif;
+    margin: 50px;
+    font-size: 1.5vw;
+}
+.ex{ border-radius: 10px;
+    margin-left: 600px;
+    margin-left: 400px;
+    height: 50vh;
+    width: 35%;
+    background-color:rgb(56, 59, 64) ;
+    /* font-family: "M PLUS 1p", sans-serif; */
+}
+.ex div{
+    margin-top: 80px;
+    margin-left: 75px;
+    /* font-family: "M PLUS 1p", sans-serif; */
+}
+
+.c{text-decoration:underline;
+   margin-left: 125px;
+    font-size: 15vh;
+    margin-bottom: 0px;
+    font-family: "M PLUS 1p", sans-serif;
+}
+.cs{
+    gap: 40px;
+    display: flex;
+    justify-content: space-between;
+    font-family: "M PLUS 1p", sans-serif;
+}
+.cs1{
+    text-align: center;
+    font-size: 2vw;
+}
+.cs1 p{
+ margin: 30px;
+    text-align: center;
+    font-family: "M PLUS 1p", sans-serif;
+}
+.cs2 img{
+    margin-top: 110px;
+    width: 50vw;
+    margin-right:30px;
+    border-radius: 20px;
+    height: 60vh;
+    /* position: absolute; */
+}
+
+
+.mai{
+    width: 100%;
+    height: 100vh;
+    /* background-color: #e65b5b; */
+}
+.back{
+    width: 100%;
+    height: 100vh;
+ 
+}
+.back img{
+    /* position: absolute; */
+    /* z-index: 678987667; */
+    width: 100%;
+    height: 100vh;
+ object-fit: cover;
+}
+.top{
+    pointer-events: none;
+    margin-top: 681.9vh;   
+     top: 0;
+    left: 0;
+position: absolute;
+    width: 100%;
+    height: 100vh;
+    /* background-color: #25ce5dec; */
+}
+.work{
+   position: relative;
+        margin: 0 auto;
+        width: 80%;
+        height: 100vh;
+        max-width: 1920px;
+        /* border: 1px solid red; */
+        
+}
+.hero{
+    transform: translate(0%, -50%);
+    position: absolute;
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+    /* height: 100px; */
+    /* background-color: red; */
+    top: 50%;
+    left: 0;
+    }
+    .herol{
+    min-width: 50%;
+    /* height: 100px; */
+    /* background-color: yellow; */
+    }
+    .herol .elem{
+        overflow: hidden;
+        height: 9vw;
+        /* background-color: red; */
+    }
+.herol h1{
+    font-family: "kajiro";
+    font-weight: 100;
+    font-size: 11vw;
+    line-height: 0.9;
+}
+    .heror{
+        min-width: 25%;
+        /* height: 100px; */
+        /* background-color: rgb(54, 165, 54); */
+        }
+        .herol button{
+            color: #0b0b0b;
+            padding: .8vw 3vw;
+font-size: 3vw;
+margin-top: 2vw;
+pointer-events: all;
+font-family: "kajiro";
+        }
+
+
+
+
+        .js{
+            font-family: "M PLUS 1p", sans-serif;
+            font-size: 2vw;
+        }
+
+.js h1{
+    margin-left: 4.6vw;
+    font-family: "M PLUS 1p", sans-serif;
+    font-size: 4vw;
+}   
+
+.js p{
+    margin-left: 4.6vw;
+    font-family: "M PLUS 1p", sans-serif;
+    font-size: 1.4vw;
+} 
+
+
+
+
+#page3 {
+    min-height: 100vh;
+    width: 100%;
+    /* background-color: #EFEAE3; */
+    padding: 4vw 0;
+}
+
+.elem {
+    height: 150px;
+    width: 100%;
+    position: relative;
+    font-family: "M PLUS 1p", sans-serif;
+    border-bottom: 1px solid #38383864;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    padding: 0 2vw;
+}
+
+.elem h2 {
+    font-family: "M PLUS 1p", sans-serif;
+    font-size: 3vw;
+    position: relative;
+    z-index: 9;
+}
+
+.elem .overlay {
+    font-family: "M PLUS 1p", sans-serif;
+    height: 100%;
+    width: 100%;
+    background-color: orange;
+    position: absolute;
+    left: 0;
+    top: -100%;
+    transition: all ease 0.25s;
+}
+
+.elem:hover .overlay {
+    font-family: "M PLUS 1p", sans-serif;
+    top: 0;
+}
+
+
+
+#fixed-image {
+    height: 37vw;
+    width: 50vw;
+    background-color: red;
+    border-radius: 15px;
+    position: fixed;
+    z-index: 99;
+    left: 50%;
+    top: 25%;
+    display: none;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+footer {
+    font-family: "M PLUS 1p", sans-serif;
+    position: fixed;
+    bottom: 0;
+}
+
+@media (max-height:800px) {
+    footer {
+        position: static;
+    }
+    header {
+        padding-top: 40px;
+    }
+}
+
+.footer-distributed {
+    background-color: #1a1919;
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font: bold 16px  "M PLUS 1p";
+    padding: 50px 50px 60px 50px;
+    margin-top: 80px;
+}
+
+.footer-distributed .footer-left, .footer-distributed .footer-center, .footer-distributed .footer-right {
+    display: inline-block;
+    vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left {
+    width: 30%;
+}
+
+.footer-distributed h3 {
+    color: #ffffff;
+    font: normal 36px 'Cookie', cursive;
+    margin: 0;
+    font-family: "M PLUS 1p", sans-serif;
+}
+
+
+.footer-distributed h3 span {
+    color: #e0ac1c;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links {
+    color: #ffffff;
+    margin: 20px 0 12px;
+}
+
+.footer-distributed .footer-links a {
+    display: inline-block;
+    line-height: 1.8;
+    text-decoration: none;
+    color: inherit;
+    font-family: "M PLUS 1p", sans-serif;
+}
+
+.footer-distributed .footer-company-name {
+    color: #8f9296;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+    font-family: "M PLUS 1p", sans-serif;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center {
+    width: 35%;
+}
+
+.footer-distributed .footer-center i {
+    background-color: #33383b;
+    color: #ffffff;
+    font-size: 25px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 42px;
+    margin: 10px 15px;
+    vertical-align: middle;
+    font-family: "M PLUS 1p", sans-serif;
+}
+
+.footer-distributed .footer-center i.fa-envelope {
+    font-size: 17px;
+    line-height: 38px;
+}
+
+.footer-distributed .footer-center p {
+    display: inline-block;
+    color: #ffffff;
+    vertical-align: middle;
+    margin: 0;
+    font-family: "M PLUS 1p", sans-serif;
+}
+
+.footer-distributed .footer-center p span {
+    display: block;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 2;  font-family: "M PLUS 1p", sans-serif;
+}
+
+.footer-distributed .footer-center p a {
+    color: #e0ac1c;
+    text-decoration: none;
+    font-family: "M PLUS 1p", sans-serif;
+    ;
+}
+
+/* Footer Right */
+
+.footer-distributed .footer-right {
+    width: 30%;
+    font-family: "M PLUS 1p", sans-serif;
+}
+
+.footer-distributed .footer-company-about {
+    line-height: 20px;
+    color: #92999f;
+    font-family: "M PLUS 1p", sans-serif;
+    font-size: 13px;
+    font-weight: normal;
+    margin: 0;
+}
+
+.footer-distributed .footer-company-about span {
+    display: block;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-family: "M PLUS 1p", sans-serif;
+}
+
+.footer-distributed .footer-icons {
+    margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    background-color: #33383b;
+    border-radius: 2px;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+    margin-right: 3px;
+    margin-bottom: 5px;
+    font-family: "M PLUS 1p", sans-serif;
+}
+
+.footer-distributed .footer-icons a:hover {
+    background-color: #3F71EA;
+}
+
+.footer-links a:hover {
+    color: #3F71EA;
+}
+
+@media (max-width: 880px) {
+    .footer-distributed .footer-left, .footer-distributed .footer-center, .footer-distributed .footer-right {
+        display: block;
+        width: 100%;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    .footer-distributed .footer-center i {
+        margin-left: 0;
+    }
+}       
+        
+
+        
